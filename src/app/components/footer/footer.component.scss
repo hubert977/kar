@@ -1,0 +1,59 @@
+
+footer {
+  background-color: #30312C;
+  color: 	#B4965B;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact-area {
+ justify-content: center;
+ padding-top: 20px;
+}
+
+.contact-us {
+  margin: 0;
+  text-align: center;
+  height: 200px;
+  box-sizing: border-box;
+  padding-left: 40%;
+}
+
+.contact-list li i.fa {
+  color: #B4965B;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.contact-list li {
+  margin-bottom: 15px;
+}
+
+.contact-list li a {
+  color: #B4965B;
+  text-align: center;
+}
+
+@media screen  and (max-width: 500px){
+  .contact-us {
+    padding-left: 15%;
+    height: 100%;
+  }
+
+   h2, li {
+     font-size: 18px;
+     text-align: center;
+     justify-content: center;
+   }
+   .contact-area {
+     margin-right: 29%;
+     font-size: 18%;
+
+   }
+   li {
+     width: 100%;
+   }
+
+  }
